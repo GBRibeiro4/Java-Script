@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+    <style>
+        body {
+            background-color: royalblue;
+            color: white;
+            font-size: 2em;
+            text-shadow: 1px 1px 1px black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prática - Operadores (1° Parte) </h1>
+    
+    <h2>Resultados</h2>
+    <p>Abaixo você terá o resultado de todas as contas feitas baseadas nos números que você apresentou.</p>
+
+    <script>
+        var n1 = Number(window.prompt(`digite um número: `))
+        var n2 = Number(window.prompt(`Digite outro número: `))
+        var calculo1 = n1 +n2 
+        window.alert(`O resultado é ${calculo1}`) 
+        document.write(`${n1} + ${n2} é: ${calculo1} <br/>`)
+
+        var n3 = Number(window.prompt(`Digite um número: `))
+        var n4 = Number(window.prompt(`Digite outro número:`))
+        var calculo2 = n3 - n4 
+        window.alert(`O resultado é ${calculo2}`)
+        document.write(`${n3} - ${n4} é: ${calculo2} <br/>`)
+
+        var n5 = Number(window.prompt('Digite um número: '))
+        var n6 = Number(window.prompt('Digite outro número: '))
+        var calculo3 = n5 * n6
+        window.alert(`O resultado é: ${calculo3}`)
+        document.write(`${n5} * ${n6} é: ${calculo3} <br/>`)
+
+        var n7 = Number(window.prompt('Digite um número: '))
+        var n8 = Number(window.prompt('Digite outro número: '))
+        var calculo4 = n7 / n8
+        window.alert(`O resultado é: ${calculo4}`)
+        document.write(`${n7} / ${n8} é: ${calculo4} <br/>`)
+
+        var n9 = Number(window.prompt('Digite um número: '))
+        var n10 = Number(window.prompt('Digite outro número: '))
+        var calculo5 = n9 ** n10
+        window.alert(`O resultado é: ${calculo5}`)
+        document.write(`${n9} ** ${n10} é: ${calculo5} <br/>`)
+
+        var n11 = Number(window.prompt('Digite um número: '))
+        var n12 = Number(window.prompt('Digite outro número: '))
+        var calculo6 = n11 % n12
+        window.alert(`O resultado é: ${calculo6}`)
+        document.write(`${n11} % ${n12} é: ${calculo6} <br/>`)
+    </script>
+</body>
+</html>
